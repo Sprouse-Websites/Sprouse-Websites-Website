@@ -1,0 +1,215 @@
+@import "http://fonts.googleapis.com/css?family=Droid+Serif";  /* This Line is to import Google font style */
+.content{
+	width:960px;
+	margin:20px auto
+}
+.main{
+	float:left;
+	width:650px;
+	margin-top:80px
+}
+#progressbar{
+	margin:0;
+	padding:0;
+	font-size:18px
+}
+fieldset{
+	display:none;
+	padding:20px;
+	margin:85px;
+	border-radius:5px;
+}
+
+#first{
+	display:block;
+	padding:20px;
+	margin-top:50px;
+	border-radius:5px;
+	margin-left:85px;
+	margin-right:85px;
+}
+
+#second{
+	display:none;
+	padding:20px;
+	margin-top:50px;
+	border-radius:5px;
+	margin-left:85px;
+	margin-right:85px;
+}
+
+#third{
+	display:none;
+	padding:20px;
+	margin-top:50px;
+	border-radius:5px;
+	margin-left:85px;
+	margin-right:85px;
+}
+
+#forth{
+	display:none;
+	padding:20px;
+	margin-top:50px;
+	border-radius:5px;
+	margin-left:85px;
+	margin-right:85px;
+}
+
+/* input[type=text], input[type=email], input[type=number],input[type=password],select{
+width:50%;
+margin:10px 0;
+height:40px;
+padding:5px;
+border:3px solid #95b0ed;
+border-radius:4px
+}
+
+textarea{
+width:100%;
+margin:10px 0;
+height:70px;
+padding:5px;
+border:3px solid #95b0ed;
+border-radius:4px
+}
+*/
+
+input[type=button], .estimate-button {
+	width:120px;
+	margin:15px 25px;
+	padding:5px;
+	height:40px;
+	border:none;
+	border-radius:4px;
+	color:#fff;
+	font-family:'Droid Serif',serif
+}
+
+input[type=reset] {
+	background-color: #f54;
+}
+
+.back {
+	background-color: #555;
+}
+
+input[type=submit], .next {
+	background-color: #5f4;
+}
+
+a.next {
+	background-color: #a0522d !important;
+	padding: 6pt !important;
+	margin: 15px 25px !important;
+	border-radius: 5px !important;
+	color: white !important;
+}
+
+button.next {
+	width:120px;
+	margin:15px 25px;
+	padding:5px;
+	height:40px;
+	background-color:#a0522d;
+	border:none;
+	border-radius:4px;
+	color:#fff;
+	font-family:'Droid Serif',serif
+}
+
+h2,p{
+	font-family:'Droid Serif',serif
+}
+
+#gotoestimatebutton {
+	padding: 5pt;
+	border-radius: 5%;
+	background-color: #2498ff;
+}
+
+/* Slider */
+.slidecontainer {
+	width: 100%;
+}
+
+.slider {
+	-webkit-appearance: none;
+	width: 100%;
+	height: 25px;
+	background: #d3d3d3;
+	outline: none;
+	opacity: 0.7;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 25px;
+	height: 25px;
+	background: #000;
+	cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+	width: 25px;
+	height: 25px;
+	background: #000;
+	cursor: pointer;
+}
+
+.slider-green::-moz-range-thumb {
+	background: #4CAF50;
+}
+
+.slider-green::-webkit-slider-thumb {
+	background: #4CAF50;
+}
+
+.slider-red::-moz-range-thumb {
+	background: #Af4550;
+}
+
+.slider-red::-webkit-slider-thumb {
+	background: #Af4550;
+}
+
+.slider-yellow::-moz-range-thumb {
+	background: #AfAF50;
+}
+
+.slider-yellow::-webkit-slider-thumb {
+	background: #dfdF50;
+}
+
+
+.slider-gold::-moz-range-thumb {
+	background: #AfAF50;
+}
+
+.slider-gold::-webkit-slider-thumb {
+	background: #AfAF50;
+}
+
+
+.slider:hover {
+	opacity: 1;
+}
+
+/* radio images */
+.input-hidden {
+	position: absolute;
+	left: -9999px;
+}
+
+input[type=radio]:checked+label>img {
+	border: 4px solid #b00;
+}
+
+input[type=radio]+label>img {
+	border: 1pt solid #444;
+	width: 150px;
+	transition: 200ms all;
+}

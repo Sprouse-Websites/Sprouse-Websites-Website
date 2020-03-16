@@ -1,0 +1,20 @@
+footer {
+	background-color: #55f;
+	padding-bottom: 10pt;
+}
+
+foot-title {
+	font-size: 18pt;
+	font-weight: 600;
+	display: block;
+	text-transform: uppercase;
+	margin-bottom: 5pt;
+}
+
+.tag {
+	border-radius: 30%;
+	border: 3pt grey solid;
+	padding: 5pt;
+	text-decoration: underline;
+	margin: 4pt;
+}
